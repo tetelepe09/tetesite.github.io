@@ -1,0 +1,23 @@
+img:hover{
+    border: black 5px solid;
+    border-radius: 20px;
+    width: 700px;
+    height: 700px;
+}
+.simpleButton {
+background-color: blue; 
+color: white; 
+border: none; 
+padding: 15px 32px; 
+text-align: center; 
+display: inline-block; 
+font-size: 16px; 
+}
+a{
+text-decoration: none;
+color: white;
+}
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}

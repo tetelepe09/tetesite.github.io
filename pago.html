@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="T.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellene la dirección</title>
+</head>
+<style>
+  *{
+    margin: 0%;
+    padding: 0%;
+  }
+  .container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+  }
+    .container input{
+      border: none;
+      border-radius:5px ;
+    }
+  .container textarea{
+    border: none;
+      border-radius:5px ; 
+  }
+  .container button{
+    border:none;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .container button:hover{
+    border: black 2px solid;
+
+  
+  }
+  .btn{
+    text-decoration: none;
+  }
+  h1{
+    width: 50%;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: red;
+    border-radius: 10px;
+    border: 2px black solid;
+
+  }
+</style>
+<body>
+    <center><h1>PAGO CONTRARREEMBOLSO</h1></center>
+    <center>
+      <div class="container">
+        <form
+        action="https://formspree.io/f/mjkvqdde"
+        method="POST">
+        <label>
+          Nombre de persona que está rellenando el pago:
+          <input  name="message">
+        </label><br><br>
+      
+              <label for="producto">Correo electrónico:</label>
+              <input type="text" id="producto" name="email" required><br><br>
+      
+              
+              <label for="producto">Talla:</label>
+              <input type="text" id="talla" name="talla" required><br><br>
+      
+              <label for="producto">Producto:</label>
+              <input type="text" id="producto" name="producto" required><br><br>
+      
+              <label for="cantidad">Cantidad:</label>
+              <input type="number" id="cantidad" name="cantidad" required><br><br>
+      
+              
+          Dirección(calle y nº):
+          <textarea name="dirección"></textarea>
+        </label><br>
+        <label>
+          DNI|NIF:
+          <textarea name="dni"></textarea>
+        </label><br>
+        <label>
+          Código Postal y Ciudad:
+          <textarea name="código postal y ciudad"></textarea>
+        </label><br> 
+        <!-- your other form fields go here -->
+        <button type="submit">TERMINAR PEDIDO</button><br><br>
+        <button class="btn"><a href="index.html">Vuelve al Inicio</a></button>
+      </form>
+      </div>
+    </center>
+</body>
+</html>

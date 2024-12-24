@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="T.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TETE XCHANGE RELLENAR QUE TE GUSTA</title>
+</head>
+<style>
+  .btn{
+    border-radius: 5px;
+    border: none;
+    background: greenyellow;
+    color: whitesmoke;
+
+  }
+  .btn:hover{
+    border: black solid 2px;
+    border-radius: 0px;
+    background-color: whitesmoke;
+    color: yellowgreen;
+  }
+</style>
+<body>
+    <form
+  action="https://formspree.io/f/mjkvqdde"
+  method="POST"
+>
+  <label>
+    Tu email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    ¿Cuál fue el error?:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">ENVIAR</button>
+  <button class="btn"><a href="index.html">Vuelve al Inicio</a></button>
+</form>
+</body>
+</html>
